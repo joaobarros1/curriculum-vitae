@@ -1,0 +1,43 @@
+@primary-color: #3498db;
+@secondary-color: #2ecc71;
+@font-family: "Arial, sans-serif";
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: @primary-color;
+    color: white;
+    font-family: @font-family;
+
+    .header {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+        max-width: 800px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        .section {
+            margin-bottom: 20px;
+
+            .section-title {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+                color: @secondary-color;
+            }
+
+            .section-content {
+                font-size: 1em;
+                line-height: 1.5;
+            }
+        }
+    }
+}

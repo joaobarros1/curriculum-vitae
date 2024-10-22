@@ -1,100 +1,42 @@
-# Node.js
-node_modules/
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
 npm-debug.log
 yarn-error.log
 
-# Logs
-logs/
-*.log
-*.log.*
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# OS generated files
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
 .DS_Store
 Thumbs.db
-
-# IDEs and editors
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Environment variables
-.env
-
-# Build directories
-dist/
-build/
-out/
-
-# Dependency directories
-bower_components/
-jspm_packages/
-
-# Compiled files
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
-# Ruby
-*.gem
-*.rbc
-.ruby-version
-.ruby-gemset
-
-# Go
-*.exe
-*.test
-*.out
-
-# Rust
-*.rlib
-
-# C/C++
-*.obj
-*.o
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-*.app
-
-# Archives
-*.zip
-*.tar.gz
-*.rar
-*.7z
-*.bz2
-*.gz
-*.xz
-
-# Images
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.tiff
-*.ico
-*.svg
-*.psd
-*.ai
